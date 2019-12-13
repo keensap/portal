@@ -1,0 +1,1 @@
+ [Information] 	2019-07-26 21:44:32.164 +05:00 	Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager: User profile is available. Using '/home/mzain/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.

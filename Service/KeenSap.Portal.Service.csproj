@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>KeenSap.Portal.Service</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="2.2.0"/>
+    <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="5.5.0"/>
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="5.5.0"/>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="6.1.1"/>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Data\KeenSap.Portal.Data.csproj"/>
+  </ItemGroup>
+</Project>
